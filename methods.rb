@@ -40,6 +40,8 @@ def generate_rapper_name
   "#{pick_one(SALUTATIONS)} #{pick_one(ACTIONS)} #{pick_one(ARTICLES)} #{pick_one(OBJECTS)}"
 end
 
+# Comes up with 10 suggestions
+
 x = 0
 while x <= 10
   puts "#{generate_rapper_name}"
